@@ -1,0 +1,37 @@
+SO IN READ ME TALK ABOUT HOW I CONFIRMED MY IDEA
+WRITE ABOUT RESEARCH I TOOK (CITE A SOURCE IN 5 YEARS)
+
+
+
+Create a single “.zip” archive (max 150MB) containing a txt link to the public GitHub readme/report, 
+the executable and required libraries to run it. Detail how to run the executable (put that in the write
+up below). Don’t forget to include any other resources required; meshes, sounds etc. Submit your zip 
+file to the DLE electronic submission system. And don’t forget to remove any unneeded files and 
+folders. Compress any additional resources or assets to stay within the space limit.
+
+
+REFER TO MARKING RUBIC IT IS GOOD
+
+week 8 on slide is how to have multiple locations 
+also need multiple mvp sigma
+
+
+for signature - just copy paste one of the existing models and move it up or something idk
+
+models 
+https://www.turbosquid.com/3d-models/3d-ready-model-1390678
+
+
+
+PCG
+GITHUB AS I AM ALLOWED TO CREDIT IT 
+https://www.opengl-tutorial.org/intermediate-tutorials/tutorial-13-normal-mapping/
+https://glusoft.com/godot-tutorials/make-terrain-perlin-noise-FastNoiseLite/
+
+
+
+audio refrence https://www.ambiera.com/irrklang/tutorials.html
+https://www.youtube.com/watch?v=PLh79OjVFws
+(also mention in library and link it )
+audio I used : https://mixkit.co/free-sound-effects/rain/
+https://mixkit.co/free-sound-effects/scream/
