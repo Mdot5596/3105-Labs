@@ -5,6 +5,8 @@
 
 #include <glad/glad.h>
 #include "helper/glslprogram.h"
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
 
 class SceneBasic_Uniform : public Scene
 {
@@ -14,6 +16,8 @@ private:
     float angle;
 
     void compile();
+
+    glm::mat4 rotationMatrix; // Private 4x4 rotation matrix
 
 public:
     SceneBasic_Uniform();

@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MHodg\\Desktop\\3105-Labs\\3105-Labs\\Lab 1\\",
+  "WorkspaceRootPath": "D:\\Uni\\3015\\3105-Labs\\Lab 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|C:\\Users\\MHodg\\Desktop\\3105-Labs\\3105-Labs\\Lab 1\\helper\\glslprogram.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|solutionrelative:helper\\glslprogram.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|D:\\Uni\\3015\\3105-Labs\\Lab 1\\scenebasic_uniform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|solutionrelative:scenebasic_uniform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|C:\\Users\\MHodg\\Desktop\\3105-Labs\\3105-Labs\\Lab 1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|D:\\Uni\\3015\\3105-Labs\\Lab 1\\scenebasic_uniform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|solutionrelative:scenebasic_uniform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|D:\\Uni\\3015\\3105-Labs\\Lab 1\\shader\\basic_uniform.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|solutionrelative:shader\\basic_uniform.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|D:\\Uni\\3015\\3105-Labs\\Lab 1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|C:\\Users\\MHodg\\Desktop\\3105-Labs\\3105-Labs\\Lab 1\\scenebasic_uniform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|solutionrelative:scenebasic_uniform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|D:\\Uni\\3015\\3105-Labs\\Lab 1\\helper\\glslprogram.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|solutionrelative:helper\\glslprogram.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,42 +30,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "basic_uniform.vert",
+              "DocumentMoniker": "D:\\Uni\\3015\\3105-Labs\\Lab 1\\shader\\basic_uniform.vert",
+              "RelativeDocumentMoniker": "shader\\basic_uniform.vert",
+              "ToolTip": "D:\\Uni\\3015\\3105-Labs\\Lab 1\\shader\\basic_uniform.vert",
+              "RelativeToolTip": "shader\\basic_uniform.vert",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-18T12:22:31.175Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "glslprogram.h",
-              "DocumentMoniker": "C:\\Users\\MHodg\\Desktop\\3105-Labs\\3105-Labs\\Lab 1\\helper\\glslprogram.h",
-              "RelativeDocumentMoniker": "helper\\glslprogram.h",
-              "ToolTip": "C:\\Users\\MHodg\\Desktop\\3105-Labs\\3105-Labs\\Lab 1\\helper\\glslprogram.h",
-              "RelativeToolTip": "helper\\glslprogram.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-23T14:40:54.999Z",
+              "Title": "scenebasic_uniform.cpp",
+              "DocumentMoniker": "D:\\Uni\\3015\\3105-Labs\\Lab 1\\scenebasic_uniform.cpp",
+              "RelativeDocumentMoniker": "scenebasic_uniform.cpp",
+              "ToolTip": "D:\\Uni\\3015\\3105-Labs\\Lab 1\\scenebasic_uniform.cpp",
+              "RelativeToolTip": "scenebasic_uniform.cpp",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAewGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-23T14:34:21.816Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "scenebasic_uniform.cpp",
-              "DocumentMoniker": "C:\\Users\\MHodg\\Desktop\\3105-Labs\\3105-Labs\\Lab 1\\scenebasic_uniform.cpp",
-              "RelativeDocumentMoniker": "scenebasic_uniform.cpp",
-              "ToolTip": "C:\\Users\\MHodg\\Desktop\\3105-Labs\\3105-Labs\\Lab 1\\scenebasic_uniform.cpp",
-              "RelativeToolTip": "scenebasic_uniform.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-23T14:34:21.816Z"
+              "DocumentIndex": 1,
+              "Title": "scenebasic_uniform.h",
+              "DocumentMoniker": "D:\\Uni\\3015\\3105-Labs\\Lab 1\\scenebasic_uniform.h",
+              "RelativeDocumentMoniker": "scenebasic_uniform.h",
+              "ToolTip": "D:\\Uni\\3015\\3105-Labs\\Lab 1\\scenebasic_uniform.h",
+              "RelativeToolTip": "scenebasic_uniform.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-18T12:24:00.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "glslprogram.h",
+              "DocumentMoniker": "D:\\Uni\\3015\\3105-Labs\\Lab 1\\helper\\glslprogram.h",
+              "RelativeDocumentMoniker": "helper\\glslprogram.h",
+              "ToolTip": "D:\\Uni\\3015\\3105-Labs\\Lab 1\\helper\\glslprogram.h",
+              "RelativeToolTip": "helper\\glslprogram.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-23T14:40:54.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\MHodg\\Desktop\\3105-Labs\\3105-Labs\\Lab 1\\main.cpp",
+              "DocumentMoniker": "D:\\Uni\\3015\\3105-Labs\\Lab 1\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\MHodg\\Desktop\\3105-Labs\\3105-Labs\\Lab 1\\main.cpp",
+              "ToolTip": "D:\\Uni\\3015\\3105-Labs\\Lab 1\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-23T14:34:22.071Z"
             }
