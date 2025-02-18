@@ -40,6 +40,12 @@ void SceneBasic_Uniform::initScene()
 
     // Set shader uniforms
     prog.setUniform("LightPosition", view * glm::vec4(5.0f, 5.0f, 2.0f, 1.0f));
+
+    prog.setUniform("Ks", glm::vec3(1.0f, 1.0f, 1.0f));  // White specular highlight
+    prog.setUniform("Shininess", 100.0f);                 // Higher = sharper highlight
+    prog.setUniform("Kd", glm::vec3(1.0f, 1.0f, 1.0f));  // Set diffuse reflectivity (White)
+    prog.setUniform("Ld", glm::vec3(1.0f, 1.0f, 1.0f));  // Set light intensity (White)
+
 }
 
 void SceneBasic_Uniform::setMatrices()
