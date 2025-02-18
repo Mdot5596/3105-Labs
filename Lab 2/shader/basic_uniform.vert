@@ -4,7 +4,7 @@ layout(location = 0) in vec3 VertexPosition; // Position of the vertex
 layout(location = 1) in vec3 VertexNormal;   // Normal vector of the vertex
 layout(location = 2) in vec3 VertexColor;    // Per-vertex color
 
-out vec3 LightIntensity; 
+flat out vec3 LightIntensity; 
 out vec3 Position;   // Eye-space position
 out vec3 Normal;     // Eye-space normal
 out vec3 Color;      // Pass vertex color

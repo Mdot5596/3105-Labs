@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Uni\\3015\\3105-Labs\\Lab 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|D:\\Uni\\3015\\3105-Labs\\Lab 2\\shader\\basic_uniform.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|solutionrelative:shader\\basic_uniform.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|D:\\Uni\\3015\\3105-Labs\\Lab 2\\shader\\basic_uniform.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|solutionrelative:shader\\basic_uniform.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|D:\\Uni\\3015\\3105-Labs\\Lab 2\\shader\\basic_uniform.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|solutionrelative:shader\\basic_uniform.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|D:\\Uni\\3015\\3105-Labs\\Lab 2\\scenebasic_uniform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -50,34 +50,32 @@
               "RelativeToolTip": "helper\\torus.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-18T14:45:16.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T14:45:16.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "basic_uniform.frag",
               "DocumentMoniker": "D:\\Uni\\3015\\3105-Labs\\Lab 2\\shader\\basic_uniform.frag",
               "RelativeDocumentMoniker": "shader\\basic_uniform.frag",
               "ToolTip": "D:\\Uni\\3015\\3105-Labs\\Lab 2\\shader\\basic_uniform.frag",
               "RelativeToolTip": "shader\\basic_uniform.frag",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-02-18T17:34:55.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "basic_uniform.vert",
               "DocumentMoniker": "D:\\Uni\\3015\\3105-Labs\\Lab 2\\shader\\basic_uniform.vert",
               "RelativeDocumentMoniker": "shader\\basic_uniform.vert",
               "ToolTip": "D:\\Uni\\3015\\3105-Labs\\Lab 2\\shader\\basic_uniform.vert",
               "RelativeToolTip": "shader\\basic_uniform.vert",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-18T12:22:31.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T12:22:31.175Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "scenebasic_uniform.cpp",
               "ViewState": "AgIAABIAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-23T14:34:21.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T14:34:21.816Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "helper\\glslprogram.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-23T14:40:54.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T14:40:54.999Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-23T14:34:22.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T14:34:22.071Z"
             }
           ]
         }
