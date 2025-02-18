@@ -27,6 +27,8 @@ void SceneBasic_Uniform::initScene()
 
     // Initialise model matrix
     model = glm::mat4(1.0f);
+    //rotate torus towards camera
+    model = glm::rotate(model, glm::radians(-35.0f), vec3(1.0f, 0.0f, 0.0f));
 
     // Initialise view matrix
     view = glm::lookAt(glm::vec3(0.0f, 0.0f, 2.0f),  // Camera position
