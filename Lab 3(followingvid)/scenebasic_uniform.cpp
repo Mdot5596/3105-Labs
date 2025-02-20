@@ -15,7 +15,7 @@ using std::endl;
 using glm::vec3;
 using glm::mat4;
 
-SceneBasic_Uniform::SceneBasic_Uniform() : torus(0.7f, 0.3f, 50, 50) {}
+SceneBasic_Uniform::SceneBasic_Uniform() : torus(0.7f, 0.3f, 300, 300) {}
 
 void SceneBasic_Uniform::initScene()
 {
@@ -34,7 +34,7 @@ void SceneBasic_Uniform::initScene()
     for (int i = 0; i < 3; i++)
     {
         std::stringstream name;
-        name << "lights[" << i << "].Position";
+        name << "Lights[" << i << "].Position";
         x = 2.0f * cosf((glm::two_pi<float>() / 3) * i);
         z = 2.0f * sinf((glm::two_pi<float>() / 3) * i);
         prog.setUniform(name.str().c_str(), view * glm::vec4(x, 1.2f, z + 1.0f, 1.0f));
@@ -43,14 +43,14 @@ void SceneBasic_Uniform::initScene()
     // Set shader uniforms varuiaubles
    // prog.setUniform("LightPosition", view * glm::vec4(5.0f, 5.0f, 2.0f, 1.0f));
 
-    prog.setUniform("lights[0].L", vec3(0.0f, 0.0f, 0.8f));  
-    prog.setUniform("lights[1].L", vec3(0.0f, 0.8f, 0.0f));
-    prog.setUniform("lights[2].L", vec3(0.8f, 0.0f, 0.0f));
+    prog.setUniform("Lights[0].L", vec3(0.0f, 0.0f, 0.8f));  
+    prog.setUniform("Lights[1].L", vec3(0.0f, 0.8f, 0.0f));
+    prog.setUniform("Lights[2].L", vec3(0.8f, 0.0f, 0.0f));
 
-    prog.setUniform("lights[0].La", vec3(0.0f, 0.0f, 0.2f));
-    prog.setUniform("lights[1].La", vec3(0.0f, 0.2f, 0.0f));
-    prog.setUniform("lights[2].La", vec3(0.2f, 0.0f, 0.0f));
-
+    prog.setUniform("Lights[0].La", vec3(0.0f, 0.0f, 0.2f));
+    prog.setUniform("Lights[1].La", vec3(0.0f, 0.2f, 0.0f));
+    prog.setUniform("Lights[2].La", vec3(0.2f, 0.0f, 0.0f));
+   
 }
 
 

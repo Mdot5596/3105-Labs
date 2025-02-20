@@ -7,11 +7,12 @@ out vec3 Colour;
 
 flat out vec3 LightIntensity; 
 
-uniform struct LightInfo{
+uniform struct LightInfo {
    vec4 Position;
    vec3 La;
    vec3 L;
-}Lights[3];
+} Lights[3]; 
+
 
 uniform struct MaterialInfo{
    vec3 Kd;
@@ -51,7 +52,6 @@ void main()
    vec3 n = normalize(NormalMatrix*VertexNormal);
    vec3 camCoords=(ModelViewMatrix*vec4(VertexPosition,1.0)).xyz;
 
-   
    Colour=vec3(0.0);
    for (int i=0;i<3;i++)
     Colour+=phongModel(i, camCoords,n);
