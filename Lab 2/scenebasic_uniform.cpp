@@ -17,7 +17,7 @@ using glm::vec3;
 using glm::mat4;
 
 
-SceneBasic_Uniform::SceneBasic_Uniform() : torus(0.7f, 0.3f, 30, 30) {}
+SceneBasic_Uniform::SceneBasic_Uniform() : torus(0.7f, 0.3f, 300, 300) {}
 
 void SceneBasic_Uniform::initScene()
 {
