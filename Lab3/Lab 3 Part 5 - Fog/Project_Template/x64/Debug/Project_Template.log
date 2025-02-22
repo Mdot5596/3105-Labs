@@ -1,0 +1,16 @@
+﻿  glad.c
+  glslprogram.cpp
+  glutils.cpp
+  objmesh.cpp
+D:\Uni\3015\Lab 3 Part 5 - Fog\helper\objmesh.cpp(188,41): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+D:\Uni\3015\Lab 3 Part 5 - Fog\helper\objmesh.cpp(194,48): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+D:\Uni\3015\Lab 3 Part 5 - Fog\helper\objmesh.cpp(198,43): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  plane.cpp
+  teapot.cpp
+  torus.cpp
+  trianglemesh.cpp
+  main.cpp
+  scenebasic_uniform.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Project_Template.vcxproj -> D:\Uni\3015\Lab 3 Part 5 - Fog\x64\Debug\Project_Template.exe
