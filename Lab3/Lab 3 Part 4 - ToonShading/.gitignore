@@ -1,0 +1,52 @@
+# Compiled binary files
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Object files
+*.o
+*.obj
+*.a
+*.lib
+
+# Build directories
+/build/
+/bin/
+/dist/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.ninja
+
+# Visual Studio & Xcode
+*.sln
+*.vcxproj*
+*.xcodeproj*
+*.xcworkspace/
+
+# GLSL Shader Cache
+*.spv
+*.cache
+
+# Logs & Debug Files
+*.log
+*.db
+*.pdb
+
+# Generated Files
+*.tmp
+*.bak
+
+# IDE Configurations
+.vscode/
+.idea/
+*.iml
+
+# User-Specific Settings
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
