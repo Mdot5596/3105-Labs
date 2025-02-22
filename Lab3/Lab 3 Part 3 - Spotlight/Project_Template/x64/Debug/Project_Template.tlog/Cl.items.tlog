@@ -1,10 +1,10 @@
-D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\glad.c;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\Project_Template\x64\Debug\glad.obj
-D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\helper\glslprogram.cpp;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\Project_Template\x64\Debug\glslprogram.obj
-D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\helper\glutils.cpp;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\Project_Template\x64\Debug\glutils.obj
-D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\helper\objmesh.cpp;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\Project_Template\x64\Debug\objmesh.obj
-D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\helper\plane.cpp;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\Project_Template\x64\Debug\plane.obj
-D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\helper\teapot.cpp;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\Project_Template\x64\Debug\teapot.obj
-D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\helper\torus.cpp;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\Project_Template\x64\Debug\torus.obj
-D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\helper\trianglemesh.cpp;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\Project_Template\x64\Debug\trianglemesh.obj
-D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\main.cpp;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\Project_Template\x64\Debug\main.obj
-D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\scenebasic_uniform.cpp;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 2b\Project_Template\x64\Debug\scenebasic_uniform.obj
+D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\glad.c;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\Project_Template\x64\Debug\glad.obj
+D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\helper\glslprogram.cpp;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\Project_Template\x64\Debug\glslprogram.obj
+D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\helper\glutils.cpp;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\Project_Template\x64\Debug\glutils.obj
+D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\helper\objmesh.cpp;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\Project_Template\x64\Debug\objmesh.obj
+D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\helper\plane.cpp;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\Project_Template\x64\Debug\plane.obj
+D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\helper\teapot.cpp;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\Project_Template\x64\Debug\teapot.obj
+D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\helper\torus.cpp;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\Project_Template\x64\Debug\torus.obj
+D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\helper\trianglemesh.cpp;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\Project_Template\x64\Debug\trianglemesh.obj
+D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\main.cpp;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\Project_Template\x64\Debug\main.obj
+D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\scenebasic_uniform.cpp;D:\Uni\3015\3105-Labs\Lab3\Lab 3 Part 3 - Spotlight\Project_Template\x64\Debug\scenebasic_uniform.obj
