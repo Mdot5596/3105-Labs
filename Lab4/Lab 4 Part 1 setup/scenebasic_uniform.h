@@ -10,13 +10,15 @@
 #include "glm/glm.hpp"
 #include "helper/plane.h"
 #include "helper/objmesh.h"
+#include "helper/cube.h"
 
 class SceneBasic_Uniform : public Scene
 {
 private:
     //  Torus torus;
-    Plane plane;
-    Teapot teapot;
+  //  Plane plane;
+  //  Teapot teapot;
+    Cube cube;
     //std::unique_ptr<ObjMesh> mesh;
 
     float tPrev;
