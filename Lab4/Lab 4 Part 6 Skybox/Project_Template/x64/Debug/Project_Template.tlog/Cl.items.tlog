@@ -1,14 +1,14 @@
-D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\glad.c;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\Project_Template\x64\Debug\glad.obj
-D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\helper\cube.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\Project_Template\x64\Debug\cube.obj
-D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\helper\glslprogram.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\Project_Template\x64\Debug\glslprogram.obj
-D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\helper\glutils.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\Project_Template\x64\Debug\glutils.obj
-D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\helper\objmesh.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\Project_Template\x64\Debug\objmesh.obj
-D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\helper\plane.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\Project_Template\x64\Debug\plane.obj
-D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\helper\skybox.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\Project_Template\x64\Debug\skybox.obj
-D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\helper\stb_image.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\Project_Template\x64\Debug\stb_image.obj
-D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\helper\teapot.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\Project_Template\x64\Debug\teapot.obj
-D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\helper\texture.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\Project_Template\x64\Debug\texture.obj
-D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\helper\torus.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\Project_Template\x64\Debug\torus.obj
-D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\helper\trianglemesh.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\Project_Template\x64\Debug\trianglemesh.obj
-D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\main.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\Project_Template\x64\Debug\main.obj
-D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\scenebasic_uniform.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 5 Normal Map\Project_Template\x64\Debug\scenebasic_uniform.obj
+D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\glad.c;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\Project_Template\x64\Debug\glad.obj
+D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\helper\cube.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\Project_Template\x64\Debug\cube.obj
+D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\helper\glslprogram.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\Project_Template\x64\Debug\glslprogram.obj
+D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\helper\glutils.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\Project_Template\x64\Debug\glutils.obj
+D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\helper\objmesh.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\Project_Template\x64\Debug\objmesh.obj
+D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\helper\plane.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\Project_Template\x64\Debug\plane.obj
+D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\helper\skybox.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\Project_Template\x64\Debug\skybox.obj
+D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\helper\stb_image.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\Project_Template\x64\Debug\stb_image.obj
+D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\helper\teapot.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\Project_Template\x64\Debug\teapot.obj
+D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\helper\texture.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\Project_Template\x64\Debug\texture.obj
+D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\helper\torus.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\Project_Template\x64\Debug\torus.obj
+D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\helper\trianglemesh.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\Project_Template\x64\Debug\trianglemesh.obj
+D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\main.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\Project_Template\x64\Debug\main.obj
+D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\scenebasic_uniform.cpp;D:\Uni\3015\3105-Labs\Lab4\Lab 4 Part 6 Skybox\Project_Template\x64\Debug\scenebasic_uniform.obj
