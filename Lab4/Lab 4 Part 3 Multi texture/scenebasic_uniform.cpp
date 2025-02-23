@@ -44,9 +44,14 @@ void SceneBasic_Uniform::initScene()
     prog.setUniform("Light.L", vec3(1.0f));
     prog.setUniform("Light.La", vec3(0.5f));
 
-    GLuint textID = Texture::loadTexture("media/texture/brick1.jpg");
+    GLuint brick = Texture::loadTexture("media/texture/brick1.jpg");
+    GLuint moss = Texture::loadTexture("media/texture/moss.png");
     glActiveTexture(GL_TEXTURE0);
-    glBindTexture(GL_TEXTURE_2D, textID);
+    glBindTexture(GL_TEXTURE_2D, brick);
+
+    glActiveTexture(GL_TEXTURE1);
+    glBindTexture(GL_TEXTURE_2D, moss);
+
 }
 
 
