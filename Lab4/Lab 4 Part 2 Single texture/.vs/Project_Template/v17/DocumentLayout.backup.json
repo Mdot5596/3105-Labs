@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Uni\\3015\\3105-Labs\\Lab4\\Lab 4 Part 2 Single texture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|D:\\Uni\\3015\\3105-Labs\\Lab4\\Lab 4 Part 2 Single texture\\helper\\cube.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|solutionrelative:helper\\cube.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|D:\\Uni\\3015\\3105-Labs\\Lab4\\Lab 4 Part 2 Single texture\\scenebasic_uniform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|solutionrelative:scenebasic_uniform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|D:\\Uni\\3015\\3105-Labs\\Lab4\\Lab 4 Part 2 Single texture\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|D:\\Uni\\3015\\3105-Labs\\Lab4\\Lab 4 Part 2 Single texture\\glad.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2424A6AC-480B-441A-94EA-86C5C10C6ABF}|Project_Template.vcxproj|solutionrelative:glad.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cube.cpp",
+              "DocumentMoniker": "D:\\Uni\\3015\\3105-Labs\\Lab4\\Lab 4 Part 2 Single texture\\helper\\cube.cpp",
+              "RelativeDocumentMoniker": "helper\\cube.cpp",
+              "ToolTip": "D:\\Uni\\3015\\3105-Labs\\Lab4\\Lab 4 Part 2 Single texture\\helper\\cube.cpp",
+              "RelativeToolTip": "helper\\cube.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-07T10:58:46.58Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "scenebasic_uniform.cpp",
+              "DocumentMoniker": "D:\\Uni\\3015\\3105-Labs\\Lab4\\Lab 4 Part 2 Single texture\\scenebasic_uniform.cpp",
+              "RelativeDocumentMoniker": "scenebasic_uniform.cpp",
+              "ToolTip": "D:\\Uni\\3015\\3105-Labs\\Lab4\\Lab 4 Part 2 Single texture\\scenebasic_uniform.cpp",
+              "RelativeToolTip": "scenebasic_uniform.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-07T10:58:42.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\Uni\\3015\\3105-Labs\\Lab4\\Lab 4 Part 2 Single texture\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\Uni\\3015\\3105-Labs\\Lab4\\Lab 4 Part 2 Single texture\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-07T10:58:41.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "glad.c",
+              "DocumentMoniker": "D:\\Uni\\3015\\3105-Labs\\Lab4\\Lab 4 Part 2 Single texture\\glad.c",
+              "RelativeDocumentMoniker": "glad.c",
+              "ToolTip": "D:\\Uni\\3015\\3105-Labs\\Lab4\\Lab 4 Part 2 Single texture\\glad.c",
+              "RelativeToolTip": "glad.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-07T10:58:40.23Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
