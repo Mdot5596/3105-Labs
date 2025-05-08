@@ -30,12 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -56,7 +52,7 @@
               "RelativeDocumentMoniker": "shader\\basic_uniform.frag",
               "ToolTip": "D:\\Uni\\3015\\3105-Labs\\Lab5\\Lab5 part 3 HDR\\shader\\basic_uniform.frag",
               "RelativeToolTip": "shader\\basic_uniform.frag",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-05-08T09:40:34.62Z",
               "EditorCaption": ""
@@ -71,8 +67,7 @@
               "RelativeToolTip": "shader\\basic_uniform.vert",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-08T09:40:33.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T09:40:33.78Z"
             },
             {
               "$type": "Document",
@@ -84,8 +79,7 @@
               "RelativeToolTip": "scenebasic_uniform.h",
               "ViewState": "AgIAABUAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-08T09:40:38.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T09:40:38.727Z"
             },
             {
               "$type": "Document",
@@ -97,8 +91,7 @@
               "RelativeToolTip": "scenebasic_uniform.cpp",
               "ViewState": "AgIAAHgAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-08T09:40:30.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T09:40:30.589Z"
             }
           ]
         }
