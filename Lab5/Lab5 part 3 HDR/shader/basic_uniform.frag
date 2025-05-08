@@ -68,7 +68,7 @@ void pass1()
  vec3 n=normalize(Normal);
  HdrColor=vec3(0.0);
  for(int i=0; i<3; i++)
- HdrColor+blinnPhong(Position, n, i);
+ HdrColor+=blinnPhong(Position, n, i); 
 }
 
 void pass2()
