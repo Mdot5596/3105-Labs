@@ -16,15 +16,15 @@ class SceneBasic_Uniform : public Scene
 {
 private:
   //  Cube cube;
-    Sphere sphere;
+ //   Sphere sphere;
 //   std::unique_ptr<ObjMesh> spot;
-    GLuint hdrFbo, blurFbo, fsQuad, hdrTex, tex1, tex2;
-    GLuint linearSampler, nearestSampler;
-   // Torus torus;
+    GLuint deferredFBO;
+    GLuint quad;
+
+    Torus torus;
     Plane plane;
     Teapot teapot;
 
-    int bloomBufWidth, bloomBufHeight;
     float tPrev;
     float angle;
     float rotSpeed;
@@ -35,12 +35,8 @@ private:
     void setupFBO();
     void pass1();
     void pass2();
-    void pass3();
-    void pass4();
-    void pass5();
-    void computeLogAveLuminance();
-    void drawScene();
-    float gauss(float, float);
+
+    void createGBufTex(GLenum, GLenum, GLuint&);
 
 
 public:
