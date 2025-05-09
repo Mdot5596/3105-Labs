@@ -55,6 +55,7 @@ void SceneBasic_Uniform::initScene()
     glBufferData(GL_ARRAY_BUFFER, numSprites * 3 * sizeof(float), locations, GL_STATIC_DRAW);
     delete[] locations;
     glGenVertexArrays(1, &sprites);
+    glBindVertexArray(sprites);
     glBindBuffer(GL_ARRAY_BUFFER, handle);
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, ((GLubyte*)NULL + (0)));
 

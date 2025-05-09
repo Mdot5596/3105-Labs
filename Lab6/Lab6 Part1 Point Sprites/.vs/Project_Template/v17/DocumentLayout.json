@@ -42,8 +42,7 @@
               "RelativeToolTip": "shader\\basic_uniform.gs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-08T21:15:51.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T21:15:51.552Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "shader\\basic_uniform.vert",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-08T20:16:17.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T20:16:17.469Z"
             },
             {
               "$type": "Document",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "shader\\basic_uniform.frag",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-08T20:16:16.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T20:16:16.74Z"
             },
             {
               "$type": "Document",
@@ -81,8 +78,7 @@
               "RelativeToolTip": "scenebasic_uniform.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-08T20:30:19.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T20:30:19.192Z"
             },
             {
               "$type": "Document",
@@ -92,7 +88,7 @@
               "RelativeDocumentMoniker": "scenebasic_uniform.cpp",
               "ToolTip": "D:\\Uni\\3015\\3105-Labs\\Lab6\\Lab6 Part1 Point Sprites\\scenebasic_uniform.cpp",
               "RelativeToolTip": "scenebasic_uniform.cpp",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGYAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-05-08T19:34:28.849Z",
               "EditorCaption": ""
