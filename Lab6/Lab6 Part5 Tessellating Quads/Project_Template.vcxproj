@@ -163,11 +163,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="shader\basic_uniform.frag" />
+    <None Include="shader\basic_uniform.gs" />
     <None Include="shader\basic_uniform.tcs" />
     <None Include="shader\basic_uniform.tes" />
     <None Include="shader\basic_uniform.vert" />
-    <None Include="shader\solid.frag" />
-    <None Include="shader\solid.vert" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="helper\aabb.h" />

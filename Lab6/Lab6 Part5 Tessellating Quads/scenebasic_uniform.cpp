@@ -27,14 +27,20 @@ SceneBasic_Uniform::SceneBasic_Uniform() :
 void SceneBasic_Uniform::initScene()
 {
     compile();
-
+    glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
     glEnable(GL_DEPTH_TEST);
 
     float c = 3.5f;
     projection = glm::ortho(-0.4f * c, 0.4f * c, -0.3f * c, 0.3f * c, 0.1f, 100.0f);
-    glPointSize(10.0f);
 
-    float v[] = { -1.0f, -1.0f, -0.5f, 1.0f, 0.5f, -1.0f, 1.0f, 1.0f };
+    prog.setUniform("Inner", 4);
+    prog.setUniform("Outer", 4);
+    prog.setUniform("LineWidth",1.5f);
+
+    prog.setUniform("LineColor", vec4(0.05f, 1.0f, 0.05f, 1.0f));
+    prog.setUniform("QuadColor", vec4(1.0f, 1.0f, 1.0f, 1.0f));
+
+    float v[] = { -1.0f, -1.0f, 1.0f, -1.0f, 1.0f, 1.0f, -1.0f, 1.0f };
 
     GLuint vboHandle;
     glGenBuffers(1, &vboHandle);
@@ -50,13 +56,11 @@ void SceneBasic_Uniform::initScene()
     glEnableVertexAttribArray(0);
     glBindVertexArray(0);
     glPatchParameteri(GL_PATCH_VERTICES, 4);
+    GLint maxVerts;
+    glGetIntegerv(GL_MAX_PATCH_VERTICES, &maxVerts);
+    printf("Max patch vertices:%d\n", maxVerts);
 
 
-    prog.setUniform("NumSegments", 50);
-    prog.setUniform("NumStrips", 1);
-    prog.setUniform("LineColor", vec4(1.0f, 1.0f, 0.05f, 1.0f));
-    solidProg.use();
-    solidProg.setUniform("Color", vec4(0.5f, 1.0f, 1.0f, 1.0f));
 
   
 }
@@ -69,14 +73,16 @@ void SceneBasic_Uniform::compile()
     try {
         prog.compileShader("shader/basic_uniform.vert");
         prog.compileShader("shader/basic_uniform.frag");
+        prog.compileShader("shader/basic_uniform.gs");
         prog.compileShader("shader/basic_uniform.tcs");
         prog.compileShader("shader/basic_uniform.tes");
         prog.link();
         prog.use();
-
+        /*
        solidProg.compileShader("shader/solid.vert");
        solidProg.compileShader("shader/solid.frag");
        solidProg.link();
+       */
     }
     catch (GLSLProgramException& e) {
         cerr << e.what() << endl;
@@ -109,8 +115,8 @@ void SceneBasic_Uniform::render()
 
     prog.use();
     glDrawArrays(GL_PATCHES, 0, 4);
-    solidProg.use();
-    glDrawArrays(GL_POINTS, 0, 4);
+    //solidProg.use();
+   // glDrawArrays(GL_POINTS, 0, 4);
     glFinish();
 }
 
@@ -118,9 +124,13 @@ void SceneBasic_Uniform::render()
 void SceneBasic_Uniform::resize(int w, int h)
 {
     glViewport(0, 0, w, h);
-  //  width = w;
-  //  height = h;
+    width = w/2.0f;
+    height = h/2.0f;
   //  projection = glm::perspective(glm::radians(70.0f), (float)w / h, 0.3f, 100.0f);
+    viewport = mat4(vec4(width, 0.0f, 0.0f, 0.0f),
+        vec4(0.0f, height, 0.0f, 0.0f),
+        vec4(0.0f, 0.0f, 1.0f, 0.0f),
+        vec4(width + 0, height + 0, 0.0f, 1.0f));
   //  float c = 1.5f;
   //  projection = glm::ortho(-0.4f * c, 0.4f * c, -0.3f * c, 0.3f * c, 0.1f, 100.0f);
 }
@@ -128,11 +138,13 @@ void SceneBasic_Uniform::resize(int w, int h)
 void SceneBasic_Uniform::setMatrices()
 {
     mat4 mv = view * model; // Compute the Model-View matrix
-    prog.use();
+   // prog.use();
    // prog.setUniform("ModelViewMatrix", mv);
    // prog.setUniform("NormalMatrix", glm::mat3(vec3(mv[0]), vec3(mv[1]), vec3(mv[2])));
+
     prog.setUniform("MVP", projection*mv);
-    solidProg.use();
-    solidProg.setUniform("MVP", projection * mv);
+    prog.setUniform("ViewportMatrix", viewport);
+   // solidProg.use();
+   // solidProg.setUniform("MVP", projection * mv);
 }
 

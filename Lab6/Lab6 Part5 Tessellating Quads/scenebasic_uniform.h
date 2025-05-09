@@ -18,7 +18,7 @@ class SceneBasic_Uniform : public Scene
 private:
   //  Cube cube;
  //   Sphere sphere;
-   std::unique_ptr<ObjMesh> ogre;
+//   std::unique_ptr<ObjMesh> ogre;
     //Torus torus;
     //Plane plane;
     //Teapot teapot;
@@ -26,9 +26,10 @@ private:
     float tPrev;
     float angle;
     float rotSpeed;
-    GLSLProgram prog, solidProg;
+    GLSLProgram prog;
     GLuint vaoHandle;
-    //glm::mat4 viewport;
+
+    glm::mat4 viewport;
     void setMatrices();
     void compile();
 

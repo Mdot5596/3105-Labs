@@ -1,2 +1,4 @@
 ﻿  scenebasic_uniform.cpp
-  Project_Template.vcxproj -> D:\Uni\3015\3105-Labs\Lab6\Lab6 Part4 Bezier Curve Tessellation\x64\Debug\Project_Template.exe
+D:\Uni\3015\3105-Labs\Lab6\Lab6 Part5 Tessellating Quads\scenebasic_uniform.cpp(127,14): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Uni\3015\3105-Labs\Lab6\Lab6 Part5 Tessellating Quads\scenebasic_uniform.cpp(128,15): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Project_Template.vcxproj -> D:\Uni\3015\3105-Labs\Lab6\Lab6 Part5 Tessellating Quads\x64\Debug\Project_Template.exe
