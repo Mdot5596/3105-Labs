@@ -29,17 +29,24 @@ private:
    // TeapotPatch teapot;
     float tPrev;
     float angle;
-    float time;
-    float particleLifeTime;
+    float time, deltaT;
+    float particleLifetime;
+    int nParticles;
 //    float rotSpeed;
     GLSLProgram prog, flatProg;
     Random rand;
-    GLuint initVel, startTime, particles, nParticles;
+    //Particle buffer
+    GLuint posBuf[2], velBuf[2], age[2];
+    //VAO
+    GLuint particleArray[2];
+    //Transform feedback
+    GLuint feedback[2];
+    GLuint drawBuf;
     Grid grid;
     glm::vec3 emitterPos, emitterDir;
 
     void initBuffers();
-    float randFloat();
+  //  float randFloat();
 
   //  glm::mat4 viewport;
     void setMatrices(GLSLProgram &);
